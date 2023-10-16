@@ -4,7 +4,7 @@
 # Docker-compose.yml
 
 services:
-  <br>asir_bind9:</br>
+  <br>asir_bind9:
     container_name: asir_bind9
     image: internetsystemsconsortium/bind9:9.16
     platform: linux/amd64
