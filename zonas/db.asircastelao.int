@@ -10,5 +10,5 @@ $TTL 38400	; 10 hours 40 minutes
 ns		IN A 	10.0.3.254
 test	IN A	10.0.3.20
 wwww    IN A    10.0.3.7
-alias	IN A    10.0.3.13
-texto   IN CNAME 10.0.3.115
+alias	IN CNAME  test
+texto   IN TXT 	mensaje
