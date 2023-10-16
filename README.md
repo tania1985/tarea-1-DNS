@@ -3,7 +3,7 @@
 
 # Docker-compose.yml
 
-services:
+'services:
   asir_bind9:
     container_name: asir_bind9
     image: internetsystemsconsortium/bind9:9.16
@@ -19,3 +19,4 @@ services:
 networks:
   bind9_subnet:
     external: true
+    '
