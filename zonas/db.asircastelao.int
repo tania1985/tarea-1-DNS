@@ -1,5 +1,5 @@
 $TTL 38400	; 10 hours 40 minutes
-@		IN SOA	ns.ionut.int. root.email.com. (
+@		IN SOA	ns.asircastelao.int. some.email.address. (
 				1910202203   ; serial
 				10800      ; refresh (3 hours)
 				3600       ; retry (1 hour)
