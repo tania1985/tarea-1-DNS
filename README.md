@@ -1,38 +1,21 @@
 # tarea-1-DNS
 # Práctica DNS
 
-## Ejemplo de mark down
+Docker-compose.yml
 
-`codigo`
-
-**negrita**
-
-_cursiva_
-
-* item1
-* item2
-
-1. item numerado
-1. otro
-1. en el medio
-   * y este tambien?
-1. y este?
-
-
-> esto es una cita
-
----
-
-[esto es un link](http://www.google.com)
-
-Una imagen (que está en el repositorio)
-
-![Yoda](./imagenes/captura.png)
-
-Varias lineas de codigo
-
-```
-una linea
-otra
-y otra mas
-```
+services:
+  asir_bind9:
+    container_name: asir_bind9
+    image: internetsystemsconsortium/bind9:9.16
+    platform: linux/amd64
+    ports:
+      - 53:53
+    networks:
+      bind9_subnet:
+        ipv4_address: 172.28.5.1
+    volumes:
+      - ./conf:/etc/bind
+      - ./zonas:/var/lib/bind
+networks:
+  bind9_subnet:
+    external: true
