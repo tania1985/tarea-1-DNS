@@ -1,7 +1,7 @@
 # tarea-1-DNS
 # Práctica DNS
 
-Docker-compose.yml
+# Docker-compose.yml
 
 services:
   asir_bind9:
