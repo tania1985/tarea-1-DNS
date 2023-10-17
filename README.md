@@ -19,5 +19,5 @@ services:
 networks:
   bind9_subnet:
     external: true
-    
+
     # docker compose -f docker-compose_client.yml up
