@@ -1,6 +1,4 @@
 # tarea-1-DNS
-# Práctica DNS
-
 # Docker-compose.yml
 
 services:
