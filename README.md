@@ -1,6 +1,6 @@
 # tarea-1-DNS
 # Docker-compose.yml
-
+```
 services:
   asir_bind9:
     container_name: asir_bind9
@@ -17,7 +17,7 @@ services:
 networks:
   bind9_subnet:
     external: true
-
+```
 
 ## DOCKER COMPOSE CLIENT 
 
