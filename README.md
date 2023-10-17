@@ -21,3 +21,4 @@ networks:
     external: true
 
     # docker compose -f docker-compose_client.yml up
+    # apk add --no-cache bind-tools
