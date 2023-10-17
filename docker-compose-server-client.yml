@@ -6,7 +6,7 @@ services:
     stdin_open: true
     # configuracion para que el cliente use nuestro dns
     dns:
-      -172.28.5.1
+      - 172.28.5.1
     networks:
       - bind9_subnet:
         ipv4_address: 172.28.5.2
