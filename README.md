@@ -6,7 +6,7 @@
 services:
   asir_bind9:
     container_name: asir_bind9
-    image: internetsystemsconsortium/bind9:9.16
+    image: ubuntu/bind9
     platform: linux/amd64
     ports:
       - 53:53
