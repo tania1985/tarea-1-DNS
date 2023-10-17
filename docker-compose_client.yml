@@ -23,6 +23,6 @@ services:
       - bind9_subnet:
         ipv4_address: 172.28.5.2
 networks:
-  bind9_subnet:
+  bind9_subnet: 
     external: true
     
