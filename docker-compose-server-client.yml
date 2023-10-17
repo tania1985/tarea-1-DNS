@@ -4,8 +4,11 @@ services:
     image: alpine
     tty: true
     stdin_open: true
+    ports:
+      - 53:53
     networks:
-      - bind9_subnet
+      bind9_subnet:
+        ipv4_address: 172.28.5.1
 networks:
   bind9_subnet:
     external: true
