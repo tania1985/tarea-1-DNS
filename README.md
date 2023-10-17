@@ -19,7 +19,7 @@
 networks:
   bind9_subnet:
     external: true
-'''
+
 # DOCKER COMPOSE CLIENT 
 '''
 services:
