@@ -43,7 +43,8 @@ networks:
     # docker compose -f docker-compose_client.yml up
     # apk add --no-cache bind-tools
 
-### db.asircastelao.int
+## db.asircastelao.int
+
 $TTL 38400	; 10 hours 40 minutes
 @		IN SOA	ns.asircastelao.int. some.email.address. (
 				17161016   ; serial
