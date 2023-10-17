@@ -38,8 +38,8 @@ networks:
   bind9_subnet:
     external: true
 
-    # docker compose -f docker-compose_client.yml up
-    # apk add --no-cache bind-tools
+   docker compose -f docker-compose_client.yml up
+   apk add --no-cache bind-tools
 
 ## db.asircastelao.int
 
