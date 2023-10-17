@@ -11,10 +11,6 @@ services:
     volumes:
       - ./conf:/etc/bind
       - ./zonas:/var/lib/bind
-networks:
-  bind9_subnet:
-    external: true
-services:
   cliente:
     container_name: asir_cliente
     image: ubuntu
