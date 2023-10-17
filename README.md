@@ -3,7 +3,7 @@
 
 # Docker-compose.yml
 
-#services:
+services:
   asir_bind9:
     container_name: asir_bind9
     image: ubuntu/bind9
@@ -16,7 +16,7 @@
     volumes:
       - ./conf:/etc/bind
       - ./zonas:/var/lib/bind
-#networks:
+networks:
   bind9_subnet:
     external: true
 
