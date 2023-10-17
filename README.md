@@ -2,8 +2,7 @@
 # Práctica DNS
 
 # Docker-compose.yml
-
-```services:
+services:
   asir_bind9:
     container_name: asir_bind9
     image: ubuntu/bind9
@@ -21,7 +20,6 @@ networks:
     external: true
 
 # DOCKER COMPOSE CLIENT 
-'''
 services:
   asir_bind9:
     container_name: asir_bind9
